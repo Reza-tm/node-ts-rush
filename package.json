@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "typescript-nodeJs boilerplate",
   "main": "dist/bundle.js",
-  "bin": "bin/index.js",
+  "bin": "bin/index.mjs",
   "scripts": {
     "start": "webpack --mode development -w & nodemon dist/bundle.js"
   },
