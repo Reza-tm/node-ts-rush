@@ -19,7 +19,6 @@ const envValidation = z.object({
   PORT: z.string().default("4200"),
   NODE_ENV: z.union(zLiteralEnv),
 });
-console.log(process.env);
 try {
   envValidation.parse(process.env);
 } catch (err) {

@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "module": "CommonJS",
     "target": "ESNext",
     "sourceMap": true,
-    "outDir": "dist",
-    "baseUrl": "./src",
+    "outDir": "./dist",
     "rootDir": "./",
     "incremental": true,
     "esModuleInterop": true,
     "strict": true,
-    "noErrorTruncation": true
+    "noErrorTruncation": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@config/*": ["./src/config/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
