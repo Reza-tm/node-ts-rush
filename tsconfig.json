@@ -14,7 +14,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "paths": {
-      "@config/*": ["./src/config/*"]
+      "@config": ["./src/config"]
     }
   },
   "exclude": ["node_modules", "dist"]

@@ -1,3 +1,3 @@
-import { configApp } from "@config/config";
+import { configApp } from "@config";
 
 console.log(`App port : ${configApp.port}`);

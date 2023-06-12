@@ -1,0 +1,1 @@
+export { configApp } from "./config";
