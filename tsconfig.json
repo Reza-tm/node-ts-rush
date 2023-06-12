@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "target": "es5",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
+    "module": "CommonJS",
+    "target": "ESNext",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "rootDir": "./",
+    "incremental": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noErrorTruncation": true
   },
-  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
