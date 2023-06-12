@@ -1,11 +1,10 @@
-import { config } from "dotenv";
 import path from "path";
 import { z } from "zod";
+import { config } from "dotenv";
 
 // define the path to our .env file
 const envPath = path.resolve();
-const { error } = config();
-console.log(error, "error");
+config();
 
 // define the shape of our environment variables
 const validNodeEnv: [string, string, ...string[]] = [
